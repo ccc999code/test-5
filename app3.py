@@ -24,14 +24,76 @@ def save_users(users):
 
 # 根據等級判斷境界
 def get_realm(level):
-    if level >= 10:
-        return "金丹"
+    if level >= 1151:
+        return "游仙巔峰"
+    elif level >= 1069:
+        return "游仙後期"
+    elif level >= 988:
+        return "游仙中期"
+    elif level >= 907:
+        return "游仙初期"
+    elif level >= 826:
+        return "大乘巔峰"
+    elif level >= 761:
+        return "大乘後期"
+    elif level >= 697:
+        return "大乘中期"
+    elif level >= 633:
+        return "大乘初期"
+    elif level >= 569:
+        return "練虛巔峰"
+    elif level >= 519:
+        return "練虛後期"
+    elif level >= 470:
+        return "練虛中期"
+    elif level >= 421:
+        return "練虛初期"
+    elif level >= 372:
+        return "合體巔峰"
+    elif level >= 335:
+        return "合體後期"
+    elif level >= 299:
+        return "合體中期"
+    elif level >= 263:
+        return "合體初期"
+    elif level >= 227:
+        return "化神巔峰"
+    elif level >= 201:
+        return "化神後期"
+    elif level >= 176:
+        return "化神中期"
+    elif level >= 151:
+        return "化神初期"
+    elif level >= 126:
+        return "元嬰巔峰"
+    elif level >= 109:
+        return "元嬰後期"
+    elif level >= 93:
+        return "元嬰中期"
+    elif level >= 77:
+        return "元嬰初期"
+    elif level >= 61:
+        return "金丹巔峰"
+    elif level >= 51:
+        return "金丹後期"
+    elif level >= 42:
+        return "金丹中期"
+    elif level >= 33:
+        return "金丹初期"
+    elif level >= 24:
+        return "築基巔峰"
+    elif level >= 19:
+        return "築基後期"
+    elif level >= 15:
+        return "築基中期"
+    elif level >= 11:
+        return "築基初期"
     elif level >= 7:
-        return "築基"
+        return "練氣巔峰"
     elif level >= 4:
-        return "煉氣後期"
+        return "練氣後期"
     elif level >= 2:
-        return "煉氣中期"
+        return "練氣中期"
     else:
         return "煉氣初期"
 
